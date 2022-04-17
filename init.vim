@@ -35,8 +35,10 @@ call plug#end()
 "Captial Y for yank to clipboard for both normal and insert mod
 nnoremap Y "*y
 "jk or kj map to ESC for only insert mod
-"inoremap jk <ESC>
-"inoremap kj <ESC>
+inoremap jk <ESC>
+inoremap kj <ESC>
+vnoremap jk <ESC>
+vnoremap kj <ESC>
 "nnoremap <C-f> :NERDTreeFocus<CR>
 "nnoremap <C-n> :NERDTree<CR>
 nnoremap <C-t> :NERDTreeToggle<cr>
