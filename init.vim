@@ -8,7 +8,6 @@
 :set softtabstop=4
 :set nohlsearch
 :set shell=sh
-":set clipboard=unnamed "let yank copy to OS clipboard
 
 
 "Specify a dir for vim plugs
@@ -40,9 +39,9 @@ inoremap jk <ESC>
 inoremap kj <ESC>
 "nnoremap <C-f> :NERDTreeFocus<CR>
 "nnoremap <C-n> :NERDTree<CR>
-nnoremap <c-t> :NERDTreeToggle<cr>
-nnoremap <f8> :tagbartoggle<cr>
-nnoremap <c-l> :call cocactionasync('jumpdefinition')<cr>
+nnoremap <C-t> :NERDTreeToggle<cr>
+nnoremap <F8> :TagbarToggle<cr>
+"nnoremap <C-l> :call CocActionAsync('jumpdefinition')<cr>
 
 
 let g:airline_powerline_fonts = 1
